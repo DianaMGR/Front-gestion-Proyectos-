@@ -71,6 +71,8 @@ function App() {
         <Route path=' ' element={<Index />}/>
         <Route path='/usuarios' element={<IndexUsuarios/>}/>
         <Route path='/usuarios/editar/:_id' element={<EditarUsuario/>}/>
+        <Route path='/proyectos' element={<IndexProyectos />} /> 
+        <Route path='/proyectos/nuevo' element={<NuevoProyecto />} />
       </Route >
       <Route path='/auth' element={<AuthLayout />}>
         <Route path='registro' element={<Registro />} />
